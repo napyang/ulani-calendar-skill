@@ -1,0 +1,58 @@
+{
+  "id" : "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+  "log" : [
+    "掃描中，找名稱含「ULANI Calendar」的裝置…",
+    "找到 ULANI CalendarXXXXXX，連線中…",
+    "已連線，探索 service…",
+    "找到 2 個 service"
+  ],
+  "name" : "ULANI CalendarXXXXXX",
+  "services" : [
+    {
+      "characteristics" : [
+        {
+          "properties" : [
+            "read"
+          ],
+          "uuid" : "2A24",
+          "value_hex" : "5037333230452D42",
+          "value_text" : "P7320E-B"
+        },
+        {
+          "properties" : [
+            "read"
+          ],
+          "uuid" : "2A26",
+          "value_hex" : "76312E302E3039",
+          "value_text" : "v1.0.09"
+        }
+      ],
+      "primary" : true,
+      "uuid" : "180A"
+    },
+    {
+      "characteristics" : [
+        {
+          "properties" : [
+            "read",
+            "write",
+            "notify"
+          ],
+          "uuid" : "1234A201-7CBC-11E9-8F9E-2A86E4085A59",
+          "value_hex" : "0903"
+        },
+        {
+          "properties" : [
+            "read",
+            "writeWithoutResponse",
+            "notify"
+          ],
+          "uuid" : "1234A202-7CBC-11E9-8F9E-2A86E4085A59",
+          "value_hex" : "111316316131163132163213121163111613116311613131113163161316113111121131631216311231131131312131261311316312131361231621361112636362316366636631663116116131513161121631631631216131311611611612113116113121611211211631613121161613113111211311311216112163163161211161161213131131211613121613163121163126131161161312131126132113116313116121661312311613113121611316"
+        }
+      ],
+      "primary" : true,
+      "uuid" : "1234A200-7CBC-11E9-8F9E-2A86E4085A59"
+    }
+  ]
+}
