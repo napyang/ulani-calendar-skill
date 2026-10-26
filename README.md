@@ -96,3 +96,7 @@ scripts/
 - 只在 P7320E-B、韌體 v1.0.09、macOS 上測過。
 - `SKILL.md` 的連線診斷表中，只有「成功流程」和 `Peer removed pairing information` 這一種失敗是實際重現過的，其他是依程式輸出與官方文件整理。
 - 附近有多台永恆曆時，程式連到先掃到的那一台。
+
+## 授權
+
+MIT，見 [LICENSE](LICENSE)。
